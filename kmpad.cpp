@@ -1,6 +1,6 @@
-// BUILD:   g++ emulator.cpp -o emulator
-// USAGE:   emulator KEYBOARD_DEVICE MOUSE_DEVICE MOUSE_ACCELERATION
-// EXAMPLE: sudo ./emulator /dev/input/event0 /dev/input/event9 100
+// BUILD:   g++ kmpad.cpp -o kmpad
+// USAGE:   kmpad KEYBOARD_DEVICE MOUSE_DEVICE MOUSE_ACCELERATION
+// EXAMPLE: sudo ./kmpad /dev/input/event0 /dev/input/event9 100
 
 #include <fcntl.h>
 #include <linux/uinput.h>
